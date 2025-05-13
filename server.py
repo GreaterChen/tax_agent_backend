@@ -24,6 +24,7 @@ from module_admin.controller.server_controller import serverController
 from module_admin.controller.user_controller import userController
 from module_admin.controller.news_controller import newsController
 from module_admin.controller.info_controller import infoController
+from module_admin.controller.package_controller import packageController
 from module_generator.controller.gen_controller import genController
 from sub_applications.handle import handle_sub_applications
 from utils.common_util import worship
@@ -82,7 +83,8 @@ controller_list = [
     {'router': commonController, 'tags': ['通用模块']},
     {'router': genController, 'tags': ['代码生成']},
     {'router': newsController, 'tags': ['新闻模块']},
-    {'router': infoController, 'tags': ['实用信息模块']}
+    {'router': infoController, 'tags': ['实用信息模块']},
+    {'router': packageController, 'tags': ['套餐模块']}
 ]
 
 for controller in controller_list:
