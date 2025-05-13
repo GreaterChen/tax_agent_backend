@@ -126,6 +126,7 @@ class UploadSettings:
         'rmvb',
         # pdf
         'pdf',
+        'md'
     ]
     DOWNLOAD_PATH = 'vf_admin/download_path'
 

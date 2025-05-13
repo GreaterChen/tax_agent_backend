@@ -127,3 +127,1298 @@
 2025-05-13 19:49:30.416 | 3cb86b780c7e49999b18e3f260ed83a5 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
 2025-05-13 19:52:44.955 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
 2025-05-13 19:52:44.955 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:16:45.285 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:16:45.288 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:16:45.321 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:16:45.321 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:16:45.322 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:16:45.373 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:16:45.390 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:16:45.390 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:16:51.101 | e612f96635ba468bb16ea9978e1bac8f | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-13 23:16:51.145 | b91cc4fcbbf44471846994fd0acd63aa | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-13 23:16:51.407 | fd91659ff32043cdb34b0d57cb33a7be | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:16:56.558 | 82bf2ca7bfa54cfb91beaf935b7d32fd | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为4的信息成功
+2025-05-13 23:16:56.572 | 59a544102ec342c79da979e9072e674a | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-13 23:16:56.581 | dfe1efbea7ba4d28a0f2f49d25487123 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-13 23:17:04.129 | 16894a0b8be747768d5838c605167637 | INFO     | module_generator.controller.gen_controller:delete_gen_table:92 - 删除成功
+2025-05-13 23:17:04.199 | 73fd4219fea44e51b45899ce680673f2 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:17:05.441 | 142202aa53d3460eb403670456f8cb1a | INFO     | module_generator.controller.gen_controller:get_gen_db_table_list:48 - 获取成功
+2025-05-13 23:17:07.552 | 301384ada6434500b65786d4b20530d3 | INFO     | module_generator.controller.gen_controller:import_gen_table:64 - 导入成功
+2025-05-13 23:17:07.616 | 42330984f2484489a674b1f068bdb052 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:17:09.891 | 2f707a7f6a3b415fb68e31c39e966021 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-13 23:17:09.894 | c45727bb81ec42038a2804e01e1b7ef0 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为5的信息成功
+2025-05-13 23:17:09.912 | 7eec0df723c14801b4471bb7cc217314 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-13 23:17:42.124 | 5b4d9b0decef48168880cc10f5b21eed | INFO     | module_generator.controller.gen_controller:edit_gen_table:82 - 更新成功
+2025-05-13 23:17:42.270 | 542192d3030a4a618fe784c1d606cdd9 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:17:44.544 | 6883f53137eb4c558f05156c6d4c41b3 | INFO     | module_generator.controller.gen_controller:batch_gen_code:116 - 生成代码成功
+2025-05-13 23:18:49.021 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:18:49.021 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:18:52.303 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:18:52.304 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:18:52.344 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:18:52.344 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:18:52.347 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:18:52.402 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:18:52.420 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:18:52.420 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:18:55.575 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:18:55.576 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:18:58.795 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:18:58.796 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:18:58.833 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:18:58.833 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:18:58.836 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:18:58.885 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:18:58.901 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:18:58.901 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:19:01.748 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:19:01.749 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:19:04.967 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:19:04.968 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:19:05.008 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:19:05.009 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:19:05.010 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:19:05.060 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:19:05.077 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:19:05.077 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:19:08.255 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:19:08.255 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:19:11.341 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:19:11.342 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:19:11.379 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:19:11.379 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:19:11.381 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:19:11.433 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:19:11.451 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:19:11.451 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:19:17.891 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:19:17.892 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:19:23.416 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:19:23.417 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:19:23.454 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:19:23.454 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:19:23.456 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:19:23.506 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:19:23.522 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:19:23.522 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:19:26.035 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:19:26.036 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:19:31.673 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:19:31.674 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:19:31.717 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:19:31.717 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:19:31.720 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:19:31.780 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:19:31.798 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:19:31.798 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:19:42.175 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:19:42.176 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:27:31.693 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:27:31.694 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:27:31.734 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:27:31.735 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:27:31.736 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:27:31.785 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:27:31.803 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:27:31.803 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:27:33.273 | ba4a5512298f4a21bfade63701aa1aa9 | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-13 23:27:33.325 | bb0fa282efd24b9cb9580a0dcedc9d64 | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-13 23:27:33.609 | cc92776dc6e94be99f45ccd172d0938e | ERROR    | exceptions.handle:exception_handler:70 - module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 384
+               │     └ 3
+               └ <function _main at 0x000001ACF69EAB00>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 384
+           │    └ <function BaseProcess._bootstrap at 0x000001ACF68F1C60>
+           └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001ACF68F12D0>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001ACF69D7550>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    └ <function subprocess_started at 0x000001ACF8DC9990>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001ACF69D7670>>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+           │       │   │    └ <function Server.serve at 0x000001ACF8DA2290>
+           │       │   └ <uvicorn.server.Server object at 0x000001ACF69D7670>
+           │       └ <function run at 0x000001ACF69F57E0>
+           └ <module 'asyncio' from 'D:\\software\\Anaconda\\envs\\ruoyi\\lib\\asyncio\\__init__.py'>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001ACAD81BA00>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001ACF85FB400>
+           └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001ACF85FB370>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001ACF85FCEE0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001ACF6D8C4C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+          └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+
+> File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001ACADCB60E0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\middlewares\trace_middleware\middle.py", line 47, in __call__
+    await self.app(scope, handle_outgoing_receive, handle_outgoing_request)
+          │    │   │      │                        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACADDCCEE0>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.gzip.GZipMiddleware object at 0x000001ACADCD0190>
+          └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 20, in __call__
+    await responder(scope, receive, send)
+          │         │      │        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACADDCCEE0>
+          │         │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │         └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADDE3340>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 39, in __call__
+    await self.app(scope, receive, self.send_with_gzip)
+          │    │   │      │        │    └ <function GZipResponder.send_with_gzip at 0x000001ACAB7D1D80>
+          │    │   │      │        └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADDE3340>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADDE3340>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <bound method GZipResponder.send_with_gzip of <starlette.middleware.gzip.GZipResponder object at 0x000001ACADDE3340>>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <bound method GZipResponder.send_with_gzip of <starlette.middleware.gzip.GZipResponder object at 0x000001ACADDE3340>>
+          │                            │    │    │     │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001ACADDE3370>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCC790>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCC790>
+          │    │                │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>>
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCC790>
+          │     │      │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │     └ <function Route.handle at 0x000001ACF9D7DF30>
+          └ APIRoute(path='/tool/gen/{table_id}', name='query_detail_gen_table', methods=['GET'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCC790>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001ACADAAF1C0>
+          └ APIRoute(path='/tool/gen/{table_id}', name='query_detail_gen_table', methods=['GET'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCC790>
+          │                            │    │        │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001ACADDE3AC0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001ACADDCCF70>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCC700>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCD090>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001ACADDCCF70>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001ACADDE3AC0>
+                     └ <function get_request_handler.<locals>.app at 0x000001ACADAAF250>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001ACF9D7FA30>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADDE3E20>, 'table_id': 4, 'request': <starlette...
+                 │         └ <function query_detail_gen_table at 0x000001ACAD827370>
+                 └ Dependant(path_params=[ModelField(field_info=Path(PydanticUndefined), name='table_id', mode='validation')], query_params=[], ...
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\controller\gen_controller.py", line 135, in query_detail_gen_table
+    gen_table = await GenTableService.get_gen_table_by_id_services(query_db, table_id)
+                      │               │                            │         └ 4
+                      │               │                            └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADDE3E20>
+                      │               └ <classmethod(<function GenTableService.get_gen_table_by_id_services at 0x000001ACAD825990>)>
+                      └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 174, in get_gen_table_by_id_services
+    result = await cls.set_table_from_options(GenTableModel(**CamelCaseUtil.transform_result(gen_table)))
+                   │   │                      │               │             │                └ None
+                   │   │                      │               │             └ <classmethod(<function CamelCaseUtil.transform_result at 0x000001ACAB5BFAC0>)>
+                   │   │                      │               └ <class 'utils.common_util.CamelCaseUtil'>
+                   │   │                      └ <class 'module_generator.entity.vo.gen_vo.GenTableModel'>
+                   │   └ <classmethod(<function GenTableService.set_table_from_options at 0x000001ACAD8260E0>)>
+                   └ <class 'module_generator.service.gen_service.GenTableService'>
+
+TypeError: module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+2025-05-13 23:27:33.661 | 61c6ee17dbf04ec3b995d728cdb72df9 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-13 23:27:33.669 | 815a20eda48b45058574043c3ae8bc6a | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-13 23:27:40.445 | e3fa4953f224434396f3d47130e8c1f4 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:27:42.704 | 29d21e4a7eca4c7093a8a134d9896dec | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-13 23:27:42.709 | be01d2525d8841e782e856bbb521ff1b | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为5的信息成功
+2025-05-13 23:27:42.722 | ae0022113dd2481a9b866ff9a032ea56 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-13 23:27:48.910 | f8669fecd0354a73b758e96740b31c91 | INFO     | module_generator.controller.gen_controller:delete_gen_table:92 - 删除成功
+2025-05-13 23:27:48.975 | c5b69ab3e4414ff2a0a9a541a75fa970 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:27:49.629 | 5ae017ad4798443285134c61d56f6a33 | INFO     | module_generator.controller.gen_controller:get_gen_db_table_list:48 - 获取成功
+2025-05-13 23:27:51.260 | a1101f2b1db84811b969b81265f381cc | INFO     | module_generator.controller.gen_controller:import_gen_table:64 - 导入成功
+2025-05-13 23:27:51.323 | 438946b1b99c4916ab2d4b6315f6c337 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:27:54.309 | 0b9bca04c8844d139842935fc72c8a4a | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-13 23:27:54.313 | 481d90ae598e4cdc841a647275f8352f | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为6的信息成功
+2025-05-13 23:27:54.331 | 7a29283cc0e64b39aaf33a603f34d3f8 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-13 23:28:21.854 | fe04a056a1724d08a25062f9e3919982 | ERROR    | module_admin.annotation.log_annotation:wrapper:129 - module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 384
+               │     └ 3
+               └ <function _main at 0x000001ACF69EAB00>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 384
+           │    └ <function BaseProcess._bootstrap at 0x000001ACF68F1C60>
+           └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001ACF68F12D0>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001ACF69D7550>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    └ <function subprocess_started at 0x000001ACF8DC9990>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001ACF69D7670>>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+           │       │   │    └ <function Server.serve at 0x000001ACF8DA2290>
+           │       │   └ <uvicorn.server.Server object at 0x000001ACF69D7670>
+           │       └ <function run at 0x000001ACF69F57E0>
+           └ <module 'asyncio' from 'D:\\software\\Anaconda\\envs\\ruoyi\\lib\\asyncio\\__init__.py'>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001ACAD81BA00>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001ACF85FB400>
+           └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001ACF85FB370>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001ACF85FCEE0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001ACF6D8C4C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+          └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001ACAD349750>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\middlewares\trace_middleware\middle.py", line 47, in __call__
+    await self.app(scope, handle_outgoing_receive, handle_outgoing_request)
+          │    │   │      │                        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACAE18F6D0>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.gzip.GZipMiddleware object at 0x000001ACADCD0190>
+          └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 20, in __call__
+    await responder(scope, receive, send)
+          │         │      │        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACAE18F6D0>
+          │         │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │         └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADF38C10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 39, in __call__
+    await self.app(scope, receive, self.send_with_gzip)
+          │    │   │      │        │    └ <function GZipResponder.send_with_gzip at 0x000001ACAB7D1D80>
+          │    │   │      │        └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADF38C10>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADF38C10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+          │    │               │      │        │                     └ Headers({'host': '127.0.0.1:9099', 'connection': 'close', 'content-length': '8114', 'sec-ch-ua': '"Chromium";v="128", "Not;A=...
+          │    │               │      │        └ <bound method GZipResponder.send_with_gzip of <starlette.middleware.gzip.GZipResponder object at 0x000001ACADF38C10>>
+          │    │               │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │    │               └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function CORSMiddleware.simple_response at 0x000001ACAB7D17E0>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+          │    │   │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130...
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130...
+          │                            │    │    │     │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001ACADF3AC80>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18FB50>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18FB50>
+          │    │                │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>>
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18FB50>
+          │     │      │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │     └ <function Route.handle at 0x000001ACF9D7DF30>
+          └ APIRoute(path='/tool/gen', name='edit_gen_table', methods=['PUT'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18FB50>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001ACADAAEC20>
+          └ APIRoute(path='/tool/gen', name='edit_gen_table', methods=['PUT'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18FB50>
+          │                            │    │        │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001ACADF39ED0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001ACAE18E440>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCE710>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACAE18FAC0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001ACAE18E440>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001ACADF39ED0>
+                     └ <function get_request_handler.<locals>.app at 0x000001ACADAAECB0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001ACF9D7FA30>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADEFF970>, 'current_user': CurrentUserModel(per...
+                 │         └ <function edit_gen_table at 0x000001ACAD8268C0>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\pydantic_validation_decorator\validation.py", line 60, in wrapper
+    return await func(*args, **kwargs)
+                 │     │       └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADEFF970>, 'current_user': CurrentUserModel(per...
+                 │     └ ()
+                 └ <function edit_gen_table at 0x000001ACAD826830>
+
+> File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_admin\annotation\log_annotation.py", line 121, in wrapper
+    result = await func(*args, **kwargs)
+                   │     │       └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADEFF970>, 'current_user': CurrentUserModel(per...
+                   │     └ ()
+                   └ <function edit_gen_table at 0x000001ACAD8267A0>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\controller\gen_controller.py", line 81, in edit_gen_table
+    edit_gen_result = await GenTableService.edit_gen_table_services(query_db, edit_gen_table)
+                            │               │                       │         └ EditGenTableModel(table_id=5, table_name='products', table_comment='套餐产品信息', sub_table_name=None, sub_table_fk_name=None, cla...
+                            │               │                       └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADEFF970>
+                            │               └ <classmethod(<function GenTableService.edit_gen_table_services at 0x000001ACAD825870>)>
+                            └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 120, in edit_gen_table_services
+    gen_table_info = await cls.get_gen_table_by_id_services(query_db, page_object.table_id)
+                           │   │                            │         │           └ 5
+                           │   │                            │         └ EditGenTableModel(table_id=5, table_name='products', table_comment='套餐产品信息', sub_table_name=None, sub_table_fk_name=None, cla...
+                           │   │                            └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACADEFF970>
+                           │   └ <classmethod(<function GenTableService.get_gen_table_by_id_services at 0x000001ACAD825990>)>
+                           └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 174, in get_gen_table_by_id_services
+    result = await cls.set_table_from_options(GenTableModel(**CamelCaseUtil.transform_result(gen_table)))
+                   │   │                      │               │             │                └ None
+                   │   │                      │               │             └ <classmethod(<function CamelCaseUtil.transform_result at 0x000001ACAB5BFAC0>)>
+                   │   │                      │               └ <class 'utils.common_util.CamelCaseUtil'>
+                   │   │                      └ <class 'module_generator.entity.vo.gen_vo.GenTableModel'>
+                   │   └ <classmethod(<function GenTableService.set_table_from_options at 0x000001ACAD8260E0>)>
+                   └ <class 'module_generator.service.gen_service.GenTableService'>
+
+TypeError: module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+2025-05-13 23:28:26.139 | 2375538b697f43a38ef10d6a873417d2 | ERROR    | module_admin.annotation.log_annotation:wrapper:129 - module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 384
+               │     └ 3
+               └ <function _main at 0x000001ACF69EAB00>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 384
+           │    └ <function BaseProcess._bootstrap at 0x000001ACF68F1C60>
+           └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001ACF68F12D0>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001ACF69D7550>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    └ <function subprocess_started at 0x000001ACF8DC9990>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001ACF69D7670>>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+           │       │   │    └ <function Server.serve at 0x000001ACF8DA2290>
+           │       │   └ <uvicorn.server.Server object at 0x000001ACF69D7670>
+           │       └ <function run at 0x000001ACF69F57E0>
+           └ <module 'asyncio' from 'D:\\software\\Anaconda\\envs\\ruoyi\\lib\\asyncio\\__init__.py'>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001ACAD81BA00>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001ACF85FB400>
+           └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001ACF85FB370>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001ACF85FCEE0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001ACF6D8C4C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+          └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001ACAE18E440>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\middlewares\trace_middleware\middle.py", line 47, in __call__
+    await self.app(scope, handle_outgoing_receive, handle_outgoing_request)
+          │    │   │      │                        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACADDCD240>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.gzip.GZipMiddleware object at 0x000001ACADCD0190>
+          └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 20, in __call__
+    await responder(scope, receive, send)
+          │         │      │        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACADDCD240>
+          │         │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │         └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADE5FD60>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 39, in __call__
+    await self.app(scope, receive, self.send_with_gzip)
+          │    │   │      │        │    └ <function GZipResponder.send_with_gzip at 0x000001ACAB7D1D80>
+          │    │   │      │        └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADE5FD60>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACADE5FD60>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+          │    │               │      │        │                     └ Headers({'host': '127.0.0.1:9099', 'connection': 'close', 'content-length': '8114', 'sec-ch-ua': '"Chromium";v="128", "Not;A=...
+          │    │               │      │        └ <bound method GZipResponder.send_with_gzip of <starlette.middleware.gzip.GZipResponder object at 0x000001ACADE5FD60>>
+          │    │               │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │    │               └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function CORSMiddleware.simple_response at 0x000001ACAB7D17E0>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+          │    │   │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130...
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130...
+          │                            │    │    │     │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001ACADE5FC40>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCE5F0>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCE5F0>
+          │    │                │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>>
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCE5F0>
+          │     │      │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │     └ <function Route.handle at 0x000001ACF9D7DF30>
+          └ APIRoute(path='/tool/gen', name='edit_gen_table', methods=['PUT'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCE5F0>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001ACADAAEC20>
+          └ APIRoute(path='/tool/gen', name='edit_gen_table', methods=['PUT'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACADDCE5F0>
+          │                            │    │        │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001ACAE209360>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001ACADCB60E0>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAD349990>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE710>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001ACADCB60E0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001ACAE209360>
+                     └ <function get_request_handler.<locals>.app at 0x000001ACADAAECB0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001ACF9D7FA30>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A470>, 'current_user': CurrentUserModel(per...
+                 │         └ <function edit_gen_table at 0x000001ACAD8268C0>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\pydantic_validation_decorator\validation.py", line 60, in wrapper
+    return await func(*args, **kwargs)
+                 │     │       └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A470>, 'current_user': CurrentUserModel(per...
+                 │     └ ()
+                 └ <function edit_gen_table at 0x000001ACAD826830>
+
+> File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_admin\annotation\log_annotation.py", line 121, in wrapper
+    result = await func(*args, **kwargs)
+                   │     │       └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A470>, 'current_user': CurrentUserModel(per...
+                   │     └ ()
+                   └ <function edit_gen_table at 0x000001ACAD8267A0>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\controller\gen_controller.py", line 81, in edit_gen_table
+    edit_gen_result = await GenTableService.edit_gen_table_services(query_db, edit_gen_table)
+                            │               │                       │         └ EditGenTableModel(table_id=5, table_name='products', table_comment='套餐产品信息', sub_table_name=None, sub_table_fk_name=None, cla...
+                            │               │                       └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A470>
+                            │               └ <classmethod(<function GenTableService.edit_gen_table_services at 0x000001ACAD825870>)>
+                            └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 120, in edit_gen_table_services
+    gen_table_info = await cls.get_gen_table_by_id_services(query_db, page_object.table_id)
+                           │   │                            │         │           └ 5
+                           │   │                            │         └ EditGenTableModel(table_id=5, table_name='products', table_comment='套餐产品信息', sub_table_name=None, sub_table_fk_name=None, cla...
+                           │   │                            └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A470>
+                           │   └ <classmethod(<function GenTableService.get_gen_table_by_id_services at 0x000001ACAD825990>)>
+                           └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 174, in get_gen_table_by_id_services
+    result = await cls.set_table_from_options(GenTableModel(**CamelCaseUtil.transform_result(gen_table)))
+                   │   │                      │               │             │                └ None
+                   │   │                      │               │             └ <classmethod(<function CamelCaseUtil.transform_result at 0x000001ACAB5BFAC0>)>
+                   │   │                      │               └ <class 'utils.common_util.CamelCaseUtil'>
+                   │   │                      └ <class 'module_generator.entity.vo.gen_vo.GenTableModel'>
+                   │   └ <classmethod(<function GenTableService.set_table_from_options at 0x000001ACAD8260E0>)>
+                   └ <class 'module_generator.service.gen_service.GenTableService'>
+
+TypeError: module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+2025-05-13 23:28:42.412 | e9398a4169924959b81857ff3e0cf506 | ERROR    | module_admin.annotation.log_annotation:wrapper:129 - module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 384
+               │     └ 3
+               └ <function _main at 0x000001ACF69EAB00>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 384
+           │    └ <function BaseProcess._bootstrap at 0x000001ACF68F1C60>
+           └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 315, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x000001ACF68F12D0>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x000001ACF69D7550>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+    │    └ <function subprocess_started at 0x000001ACF8DC9990>
+    └ <SpawnProcess name='SpawnProcess-1' parent=30920 started>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001ACF69D7670>>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=2352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 9099)>]
+           │       │   │    └ <function Server.serve at 0x000001ACF8DA2290>
+           │       │   └ <uvicorn.server.Server object at 0x000001ACF69D7670>
+           │       └ <function run at 0x000001ACF69F57E0>
+           └ <module 'asyncio' from 'D:\\software\\Anaconda\\envs\\ruoyi\\lib\\asyncio\\__init__.py'>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x000001ACAD81BA00>
+           │    └ <function BaseEventLoop.run_until_complete at 0x000001ACF85FB400>
+           └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 628, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x000001ACF85FB370>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 595, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x000001ACF85FCEE0>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\base_events.py", line 1881, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x000001ACF6D8C4C0>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finished result=None>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finished result=None>)>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x000001ACF8D2DB10>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001ACAD...
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+          └ <fastapi.applications.FastAPI object at 0x000001ACF8EC9D50>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x000001ACAD349990>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.httptools_impl.RequestResponseCycle object at 0x000001A...
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x000001ACADCD0250>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\middlewares\trace_middleware\middle.py", line 47, in __call__
+    await self.app(scope, handle_outgoing_receive, handle_outgoing_request)
+          │    │   │      │                        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACADDCF490>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.gzip.GZipMiddleware object at 0x000001ACADCD0190>
+          └ <middlewares.trace_middleware.middle.TraceASGIMiddleware object at 0x000001ACADCD01C0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 20, in __call__
+    await responder(scope, receive, send)
+          │         │      │        └ <function TraceASGIMiddleware.__call__.<locals>.handle_outgoing_request at 0x000001ACADDCF490>
+          │         │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │         └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACAE20A350>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\gzip.py", line 39, in __call__
+    await self.app(scope, receive, self.send_with_gzip)
+          │    │   │      │        │    └ <function GZipResponder.send_with_gzip at 0x000001ACAB7D1D80>
+          │    │   │      │        └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACAE20A350>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+          └ <starlette.middleware.gzip.GZipResponder object at 0x000001ACAE20A350>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+          │    │               │      │        │                     └ Headers({'host': '127.0.0.1:9099', 'connection': 'close', 'content-length': '8114', 'sec-ch-ua': '"Chromium";v="128", "Not;A=...
+          │    │               │      │        └ <bound method GZipResponder.send_with_gzip of <starlette.middleware.gzip.GZipResponder object at 0x000001ACAE20A350>>
+          │    │               │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │    │               └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function CORSMiddleware.simple_response at 0x000001ACAB7D17E0>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+          │    │   │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130...
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001ACADCD0130...
+          │                            │    │    │     │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001ACAE209B40>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001ACADCD0100>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18F760>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18F760>
+          │    │                │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>>
+          └ <fastapi.routing.APIRouter object at 0x000001ACAD8845B0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18F760>
+          │     │      │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │     └ <function Route.handle at 0x000001ACF9D7DF30>
+          └ APIRoute(path='/tool/gen', name='edit_gen_table', methods=['PUT'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18F760>
+          │    │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001ACADAAEC20>
+          └ APIRoute(path='/tool/gen', name='edit_gen_table', methods=['PUT'])
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18F760>
+          │                            │    │        │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001ACAE209A50>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001ACAE18F2E0>
+          └ <function wrap_app_handling_exceptions at 0x000001ACF9D7C940>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001ACAE18FB50>
+          │   │      └ <function RequestResponseCycle.receive at 0x000001ACADDCE4D0>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 9099), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001ACAE18F2E0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001ACAE209A50>
+                     └ <function get_request_handler.<locals>.app at 0x000001ACADAAECB0>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001ACF9D7FA30>
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\fastapi\routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A890>, 'current_user': CurrentUserModel(per...
+                 │         └ <function edit_gen_table at 0x000001ACAD8268C0>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\software\Anaconda\envs\ruoyi\lib\site-packages\pydantic_validation_decorator\validation.py", line 60, in wrapper
+    return await func(*args, **kwargs)
+                 │     │       └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A890>, 'current_user': CurrentUserModel(per...
+                 │     └ ()
+                 └ <function edit_gen_table at 0x000001ACAD826830>
+
+> File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_admin\annotation\log_annotation.py", line 121, in wrapper
+    result = await func(*args, **kwargs)
+                   │     │       └ {'query_db': <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A890>, 'current_user': CurrentUserModel(per...
+                   │     └ ()
+                   └ <function edit_gen_table at 0x000001ACAD8267A0>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\controller\gen_controller.py", line 81, in edit_gen_table
+    edit_gen_result = await GenTableService.edit_gen_table_services(query_db, edit_gen_table)
+                            │               │                       │         └ EditGenTableModel(table_id=5, table_name='products', table_comment='套餐产品信息', sub_table_name=None, sub_table_fk_name=None, cla...
+                            │               │                       └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A890>
+                            │               └ <classmethod(<function GenTableService.edit_gen_table_services at 0x000001ACAD825870>)>
+                            └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 120, in edit_gen_table_services
+    gen_table_info = await cls.get_gen_table_by_id_services(query_db, page_object.table_id)
+                           │   │                            │         │           └ 5
+                           │   │                            │         └ EditGenTableModel(table_id=5, table_name='products', table_comment='套餐产品信息', sub_table_name=None, sub_table_fk_name=None, cla...
+                           │   │                            └ <sqlalchemy.ext.asyncio.session.AsyncSession object at 0x000001ACAE20A890>
+                           │   └ <classmethod(<function GenTableService.get_gen_table_by_id_services at 0x000001ACAD825990>)>
+                           └ <class 'module_generator.service.gen_service.GenTableService'>
+
+  File "D:\tax\RuoYi-Vue3-FastAPI\ruoyi-fastapi-backend\module_generator\service\gen_service.py", line 174, in get_gen_table_by_id_services
+    result = await cls.set_table_from_options(GenTableModel(**CamelCaseUtil.transform_result(gen_table)))
+                   │   │                      │               │             │                └ None
+                   │   │                      │               │             └ <classmethod(<function CamelCaseUtil.transform_result at 0x000001ACAB5BFAC0>)>
+                   │   │                      │               └ <class 'utils.common_util.CamelCaseUtil'>
+                   │   │                      └ <class 'module_generator.entity.vo.gen_vo.GenTableModel'>
+                   │   └ <classmethod(<function GenTableService.set_table_from_options at 0x000001ACAD8260E0>)>
+                   └ <class 'module_generator.service.gen_service.GenTableService'>
+
+TypeError: module_generator.entity.vo.gen_vo.GenTableModel() argument after ** must be a mapping, not NoneType
+2025-05-13 23:28:52.736 | 8961463f9d3c473f9e719d01d9c3bceb | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:28:56.006 | 8e42d55f428c47b083ff1020678ebd0d | INFO     | module_generator.controller.gen_controller:delete_gen_table:92 - 删除成功
+2025-05-13 23:28:56.065 | 79891e03cfe04013a75e3da7980fbabb | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:31:16.476 | 687a23208b234e8299f4149d4c4c4e08 | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-13 23:31:16.515 | bd7ccaecf0144e59a13c3fbf3d60f7dd | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-13 23:31:16.765 | 7d3c0852628d4113906b24a60c9f9102 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:31:18.026 | c371cb518e04458489273616f54c4a53 | INFO     | module_generator.controller.gen_controller:get_gen_db_table_list:48 - 获取成功
+2025-05-13 23:31:19.889 | 3f8f15ad4d524116b5bddabdd6b234fc | INFO     | module_generator.controller.gen_controller:import_gen_table:64 - 导入成功
+2025-05-13 23:31:19.958 | f31645b31b0b4100b6272eb8e9edc5c1 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:31:22.019 | 91fa22744fbd43d1840648c70c4b3ce5 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-13 23:31:22.035 | f67534ca60234e1d89196e599000cbf5 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-13 23:31:22.052 | e2eb2c1fc50f4b7f803507f435fcad09 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为7的信息成功
+2025-05-13 23:31:37.678 | f2020bd3d33b43de91cf337126026f72 | INFO     | module_generator.controller.gen_controller:edit_gen_table:82 - 更新成功
+2025-05-13 23:31:38.283 | 429d603013c1490fa6a553efdbe4919a | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-13 23:31:40.048 | b8e4db8ce32e4a96af9beacbbe3b6d56 | INFO     | module_generator.controller.gen_controller:batch_gen_code:116 - 生成代码成功
+2025-05-13 23:32:12.034 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:12.034 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:15.555 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:15.556 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:15.590 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:15.590 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:15.593 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:15.639 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:15.655 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:15.655 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:17.071 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:17.071 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:20.392 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:20.393 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:20.434 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:20.434 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:20.436 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:20.485 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:20.502 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:20.502 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:20.832 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:20.833 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:24.093 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:24.094 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:24.132 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:24.133 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:24.136 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:24.189 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:24.206 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:24.206 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:30.874 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:30.875 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:34.050 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:34.051 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:34.086 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:34.087 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:34.089 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:34.136 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:34.151 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:34.151 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:37.649 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:37.649 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:40.846 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:40.847 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:40.891 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:40.891 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:40.893 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:40.946 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:40.965 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:40.966 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:41.190 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:41.190 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:45.247 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:45.250 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:45.293 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:45.293 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:45.296 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:45.348 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:45.365 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:45.365 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:52.034 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:52.034 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:32:55.325 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:32:55.327 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:32:55.364 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:32:55.364 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:32:55.366 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:32:55.418 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:32:55.434 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:32:55.434 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:32:56.850 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:32:56.850 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:33:00.043 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:33:00.044 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:33:00.081 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:33:00.081 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:33:00.083 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:33:00.131 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:33:00.147 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:33:00.148 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:33:08.012 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:33:08.012 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:33:11.291 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:33:11.292 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:33:11.329 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:33:11.330 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:33:11.331 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:33:11.387 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:33:11.406 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:33:11.407 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:33:11.622 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:33:11.623 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:33:14.769 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:33:14.770 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:33:14.805 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:33:14.806 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:33:14.808 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:33:14.860 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:33:14.877 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:33:14.877 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:33:18.919 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:33:18.919 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:33:25.167 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:33:25.168 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:33:25.205 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:33:25.205 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:33:25.208 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:33:25.256 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:33:25.272 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:33:25.272 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:33:38.273 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:33:38.275 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:33:43.722 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:33:43.724 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:33:43.759 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:33:43.759 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:33:43.760 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:33:43.809 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:33:43.824 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:33:43.825 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:34:42.428 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:34:42.429 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:34:45.579 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:34:45.580 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:34:45.614 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:34:45.616 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:34:45.617 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:34:45.665 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:34:45.680 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:34:45.680 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:34:46.014 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:34:46.015 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:34:49.190 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:34:49.192 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:34:49.228 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:34:49.228 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:34:49.230 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:34:49.277 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:34:49.293 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:34:49.293 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:34:53.110 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:34:53.110 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:34:56.157 |  | INFO     | server:lifespan:36 - RuoYi-FastAPI开始启动
+2025-05-13 23:34:56.158 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:34:56.194 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:34:56.194 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:34:56.195 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:34:56.243 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:34:56.260 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:34:56.260 |  | INFO     | server:lifespan:43 - RuoYi-FastAPI启动成功
+2025-05-13 23:36:13.820 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-13 23:36:13.821 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-13 23:36:33.978 |  | INFO     | server:lifespan:37 - RuoYi-FastAPI开始启动
+2025-05-13 23:36:33.980 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-13 23:36:34.022 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-13 23:36:34.022 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-13 23:36:34.024 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-13 23:36:34.080 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-13 23:36:34.096 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-13 23:36:34.097 |  | INFO     | server:lifespan:44 - RuoYi-FastAPI启动成功
