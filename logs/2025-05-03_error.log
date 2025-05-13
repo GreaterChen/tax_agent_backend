@@ -1,0 +1,46 @@
+2025-05-03 21:00:03.045 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-03 21:00:03.047 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-03 21:01:12.742 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-03 21:01:12.743 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-03 21:02:30.965 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-03 21:02:30.966 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-03 21:02:57.188 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-03 21:02:57.190 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-03 21:02:57.233 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-03 21:02:57.233 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-03 21:02:57.235 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-03 21:02:57.292 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-03 21:02:57.313 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-03 21:02:57.313 |  | INFO     | server:lifespan:41 - RuoYi-FastAPI启动成功
+2025-05-03 21:03:20.387 | 99e9f33520574100b06e8a1abfc57e05 | INFO     | module_admin.controller.captcha_controller:get_captcha_image:34 - 编号为fbb2524c-8a61-4000-9d24-591aab92b1d9的会话获取图片验证码成功
+2025-05-03 21:03:23.271 | 04d70a3309f746318bba04a0271ab890 | INFO     | module_admin.controller.login_controller:login:71 - 登录成功
+2025-05-03 21:03:23.309 | 9f164addac134b29abd3fdc27aa9860e | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-03 21:03:23.331 | 76011d0f5c374b0ea0156040a3404b1c | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-03 21:03:28.456 | 5afe05628a7d4cf9882136a7f2b5af67 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-03 21:03:29.791 | 421487b1849a4b7b935d481eb8f9ce51 | INFO     | module_generator.controller.gen_controller:get_gen_db_table_list:48 - 获取成功
+2025-05-03 21:03:32.569 | 79034360cc3e453188402e431233d985 | INFO     | module_generator.controller.gen_controller:import_gen_table:64 - 导入成功
+2025-05-03 21:03:32.638 | 2ce350ac2e0f40c3bb2afcc1f9d99141 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-03 21:03:36.307 | 044801a6acbb4290aafac6ac12ea4502 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-03 21:03:36.315 | d18ecc43ca7949e6be82d73bc4a374fd | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为1的信息成功
+2025-05-03 21:03:36.327 | f577118a56bb453a8e90c90f7ec5af4c | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-03 21:03:50.843 | cb8e98bdb7b14000aed62829f81c90b3 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-03 21:03:53.525 | 53c8e995e3914bdda42cb0f6ed03e4a3 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-03 21:03:53.535 | 4741f2759bc34674976fa589d1f47138 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-03 21:03:53.549 | bcf2d5b11ef54e5b868e1dfa9939f99e | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为1的信息成功
+2025-05-03 21:04:56.164 | 34538d6db53c4254a20f78e14b75bd57 | INFO     | module_generator.controller.gen_controller:edit_gen_table:82 - 更新成功
+2025-05-03 21:04:56.771 | 2684cf3064704482942561bbeff8b518 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-03 21:12:54.914 | 6cfd108c26524959b8c27eab28e08b42 | INFO     | module_generator.controller.gen_controller:batch_gen_code:116 - 生成代码成功
+2025-05-03 21:14:36.945 | cae8fcba54d1414da32749da1f3cb7f0 | INFO     | module_generator.controller.gen_controller:preview_code:147 - 获取预览代码成功
+2025-05-03 21:14:41.774 | cc29390dd20f4ce4aff113719273ee37 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-03 21:14:41.795 | 45fa64c65a144e95b3868f84f81e2fc8 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-03 21:14:41.809 | 20a7e79c13b643509324a747dfac6934 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为1的信息成功
+2025-05-03 21:15:33.965 | ce073d4ae9154fc1b3642b0e485e9bc2 | INFO     | module_generator.controller.gen_controller:edit_gen_table:82 - 更新成功
+2025-05-03 21:15:34.571 | 6c1b354319514a639586b00335f1e15c | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-03 21:15:35.528 | 2e2818b220ec4e3880a3c9df3a1e745b | INFO     | module_generator.controller.gen_controller:batch_gen_code:116 - 生成代码成功
+2025-05-03 21:15:53.596 | e9ea06219d2d425c82f6cedb0b7a1837 | INFO     | module_generator.controller.gen_controller:preview_code:147 - 获取预览代码成功
+2025-05-03 21:15:56.312 | 799db2a6e3e74aab82ab63d0494a6bd2 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-03 21:15:56.325 | 2ee611c18681474681387ea3979574f0 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-03 21:15:56.335 | c7ec66eb51394ffba367d30729b1c5d0 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为1的信息成功
+2025-05-04 00:31:44.477 | 658c0810cb3949b2809f37ff403813ff | WARNING  | module_admin.service.login_service:get_current_user:259 - 用户token已失效，请重新登录
+2025-05-04 00:31:44.498 | 5def2f7126794030876d273c534b889f | INFO     | module_admin.controller.login_controller:logout:146 - 退出成功
+2025-05-04 00:31:44.613 | 0437547ebdd1462f8c538d28f697d4dc | INFO     | module_admin.controller.captcha_controller:get_captcha_image:34 - 编号为2d5b677c-2de0-4320-aa0a-9c93b0a14234的会话获取图片验证码成功

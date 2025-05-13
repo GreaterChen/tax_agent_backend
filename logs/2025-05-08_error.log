@@ -1,0 +1,47 @@
+2025-05-08 22:51:24.565 |  | INFO     | server:lifespan:35 - RuoYi-FastAPI开始启动
+2025-05-08 22:51:24.568 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-08 22:51:24.645 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-08 22:51:24.646 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-08 22:51:24.651 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-08 22:51:24.731 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-08 22:51:24.760 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-08 22:51:24.760 |  | INFO     | server:lifespan:42 - RuoYi-FastAPI启动成功
+2025-05-08 22:51:24.940 | ad001b6884464311b27d3e1c81fe7040 | INFO     | module_admin.controller.captcha_controller:get_captcha_image:34 - 编号为65c04eb9-d3ac-44af-b033-8b4fedf07e0c的会话获取图片验证码成功
+2025-05-08 22:51:27.320 | 2225689145c04a41a1b731849452a1e8 | INFO     | module_admin.controller.login_controller:login:71 - 登录成功
+2025-05-08 22:51:27.361 | 5e334f707a9f4cab8ede7bcdde62214f | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-08 22:51:27.387 | f9dfc7ccad3547cebc5275eb397d9e7b | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-08 22:51:31.867 | 1f32ff2698864250b38f267d0a5c8d2d | INFO     | module_admin.controller.dict_controller:query_system_dict_type_data:145 - 获取成功
+2025-05-08 22:51:31.894 | 670a60eb3d1747ce92c957ff01b83272 | INFO     | module_admin.controller.role_controller:get_system_role_list:53 - 获取成功
+2025-05-08 22:51:33.044 | fd0b595e07a04f0e9d1e54412c0577d0 | INFO     | module_admin.controller.dept_controller:get_system_dept_list:50 - 获取成功
+2025-05-08 22:51:39.867 | 2dcf120d61754d8ba15a029b85c7d306 | INFO     | module_admin.controller.dept_controller:get_system_dept_list:50 - 获取成功
+2025-05-08 22:52:53.137 | d6d2180049ae401f9661de2cbd760934 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_data:145 - 获取成功
+2025-05-08 22:52:53.148 | 372ae3f2e2da49e5b187852c391f947b | INFO     | module_admin.controller.user_controller:get_system_user_list:68 - 获取成功
+2025-05-08 22:52:53.158 | 5553ffa7311f4d30a539f1ea91e82a36 | INFO     | module_admin.controller.user_controller:get_system_dept_tree:50 - 获取成功
+2025-05-08 22:53:03.447 | 4fbd914b598948a49dd9388ede76394c | INFO     | module_admin.controller.user_controller:export_system_user_template:338 - 获取成功
+2025-05-08 22:53:43.861 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-08 22:53:43.861 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-08 22:53:47.696 |  | INFO     | server:lifespan:35 - RuoYi-FastAPI开始启动
+2025-05-08 22:53:47.698 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-08 22:53:47.736 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-08 22:53:47.736 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-08 22:53:47.738 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-08 22:53:47.789 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-08 22:53:47.808 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-08 22:53:47.808 |  | INFO     | server:lifespan:42 - RuoYi-FastAPI启动成功
+2025-05-08 22:54:02.381 | 6ed2649b546d4e8f94e84f3eee12068a | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-08 22:54:02.433 | c681bac68daf4af7a9566a20fd96db6b | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-08 22:54:03.143 | 064f7931bea9491896641c66baa99f6f | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-08 22:54:03.175 | 589a0b5991b24ceeb13399b12e452239 | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-08 22:54:03.694 | c16339a7bac7461bbb385adb04e98f6b | INFO     | module_admin.controller.dict_controller:query_system_dict_type_data:145 - 获取成功
+2025-05-08 22:54:03.711 | de56b046aba64e4dabcbfeb32094e24c | INFO     | module_admin.controller.dict_controller:query_system_dict_type_data:145 - 获取成功
+2025-05-08 22:54:03.728 | efd3cfa266e54380b27aa54ab1c40cc0 | INFO     | module_admin.controller.user_controller:get_system_dept_tree:50 - 获取成功
+2025-05-08 22:54:03.735 | ff0e8274879842998da80d21a3ff5dff | INFO     | module_admin.controller.user_controller:get_system_user_list:68 - 获取成功
+2025-05-08 22:54:05.954 | dd3ce410fe634b399c29ec12376eb96a | INFO     | module_admin.controller.dict_controller:query_system_dict_type_data:145 - 获取成功
+2025-05-08 22:54:05.963 | 7048e135415a40b99145bc62fe573c74 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_data:145 - 获取成功
+2025-05-08 22:54:05.968 | f335c453fccc4c878bd5d91d9790fa76 | INFO     | module_admin.controller.user_controller:get_system_dept_tree:50 - 获取成功
+2025-05-08 22:54:05.978 | e98b6a388e6840f794f84a3cdca6b28a | INFO     | module_admin.controller.user_controller:get_system_user_list:68 - 获取成功
+2025-05-08 22:54:08.880 | 1f27d3fddedb4c6ab3f02231aa2a55ba | INFO     | module_admin.controller.user_controller:export_system_user_template:338 - 获取成功
+2025-05-08 22:55:27.449 | d3dd3eede9d541d48648883f4549cb31 | INFO     | module_admin.controller.user_controller:batch_import_system_user:330 - 1.用户账号chen已存在
+2025-05-08 22:55:27.516 | eaf518b8683c4e56bc02b33edfa25205 | INFO     | module_admin.controller.user_controller:get_system_user_list:68 - 获取成功
+2025-05-08 22:55:47.825 | 1b6c1ebe136142cfb9de41d8009eb3c0 | INFO     | module_admin.controller.user_controller:batch_import_system_user:330 - 
+2025-05-08 22:55:47.883 | 8578d9565dec4510b416aad55b0dc47f | INFO     | module_admin.controller.user_controller:get_system_user_list:68 - 获取成功

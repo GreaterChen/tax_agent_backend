@@ -1,0 +1,48 @@
+2025-05-05 18:01:42.344 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-05 18:01:42.346 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-05 18:01:42.439 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-05 18:01:42.440 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-05 18:01:44.465 |  | ERROR    | config.get_redis:create_redis_pool:43 - redis连接错误，详细错误信息：Error 10061 connecting to 127.0.0.1:6379. Connect call failed ('127.0.0.1', 6379).
+2025-05-05 18:03:09.464 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-05 18:03:09.465 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-05 18:03:09.513 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-05 18:03:09.514 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-05 18:03:09.517 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-05 18:03:09.595 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-05 18:03:09.624 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-05 18:03:09.624 |  | INFO     | server:lifespan:41 - RuoYi-FastAPI启动成功
+2025-05-05 18:03:23.295 | 9831db04b2984c8483da96c678f4399f | INFO     | module_admin.controller.captcha_controller:get_captcha_image:34 - 编号为831e7303-c0a3-4e6a-8e97-6d4753a68557的会话获取图片验证码成功
+2025-05-05 18:04:42.650 | b440da4a604c44ed8e3825ac1f4f607f | INFO     | module_admin.controller.login_controller:login:71 - 登录成功
+2025-05-05 18:04:42.701 | d1c41009407c418f9bae32798dee9ae0 | INFO     | module_admin.controller.login_controller:get_login_user_info:84 - 获取成功
+2025-05-05 18:04:42.731 | 060ffe39503640e684de578c7de33b4d | INFO     | module_admin.controller.login_controller:get_login_user_routers:95 - 获取成功
+2025-05-05 18:04:54.924 | 1a7f94ce1d67426dbd713f57f687caec | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-05 18:04:56.315 | fcb1b1b241274836a4ce7edf558bab52 | INFO     | module_generator.controller.gen_controller:get_gen_db_table_list:48 - 获取成功
+2025-05-05 18:05:10.280 | d490bf10f73e4b93b3b40331cf3f9e5b | INFO     | module_generator.controller.gen_controller:import_gen_table:64 - 导入成功
+2025-05-05 18:05:10.353 | 37aafbb96b774af1b390efa9a99931e4 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-05 18:05:13.440 | f482bb47fe3c411b9629edef4a52006a | WARNING  | exceptions.handle:service_warning_handler:57 - 请先完善生成配置信息
+2025-05-05 18:05:15.551 | 58044195077e4ad79821e0f6dcf98db5 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-05 18:05:15.554 | 330ebdca3815404899430d79bcdb56d4 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为2的信息成功
+2025-05-05 18:05:15.573 | 5dbfe88f83be4be2ab69a159c1bf839c | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-05 18:06:00.379 | b8b4ac918142424282624b6c2fe7b29d | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-05 18:06:00.389 | 50a860aebe16475bb74420515ee06823 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为1的信息成功
+2025-05-05 18:06:00.397 | 44417c47857c41aeb6185f4da401bb67 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-05 18:06:08.645 | d71bd5242b704935ac95e8148dd5cf74 | INFO     | module_generator.controller.gen_controller:edit_gen_table:82 - 更新成功
+2025-05-05 18:06:08.777 | effbca115ce14aeaa5456c929ba49904 | INFO     | module_generator.controller.gen_controller:get_gen_table_list:33 - 获取成功
+2025-05-05 18:06:11.992 | c6cd44bdfcaa42158aee5119cd28acc7 | INFO     | module_generator.controller.gen_controller:batch_gen_code:116 - 生成代码成功
+2025-05-05 18:11:47.628 | 217c02c941c84ac78aa79f7bcf75f600 | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-05 18:11:47.640 | 31287f764df1455e9fbd3918a207ee88 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-05 18:11:47.655 | d248bd975d41480698e3b87c20c03fcc | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为2的信息成功
+2025-05-05 18:11:52.332 | 4d33ec4933e44292bdc422991093d4d0 | INFO     | module_admin.controller.menu_controller:get_system_menu_list:56 - 获取成功
+2025-05-05 18:11:52.346 | 88644bf9ef2c4d9381eccbd6793c619f | INFO     | module_admin.controller.dict_controller:query_system_dict_type_options:107 - 获取成功
+2025-05-05 18:11:52.353 | 2755c0e3b7794f6793ef4095505533a4 | INFO     | module_generator.controller.gen_controller:query_detail_gen_table:139 - 获取table_id为1的信息成功
+2025-05-05 18:11:57.242 | ca9704ac8f264154ad6bea3b7e5bea71 | INFO     | module_generator.controller.gen_controller:preview_code:147 - 获取预览代码成功
+2025-05-05 18:26:25.139 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-05 18:26:25.139 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-05 18:26:32.181 |  | INFO     | server:lifespan:34 - RuoYi-FastAPI开始启动
+2025-05-05 18:26:32.182 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-05 18:26:32.216 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-05 18:26:32.217 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-05 18:26:32.219 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-05 18:26:32.266 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-05 18:26:32.285 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-05 18:26:32.286 |  | INFO     | server:lifespan:41 - RuoYi-FastAPI启动成功
