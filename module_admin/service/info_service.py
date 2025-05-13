@@ -11,7 +11,7 @@ from utils.excel_util import ExcelUtil
 
 class InfoService:
     """
-    实用信息模块服务层
+    system模块服务层
     """
 
     @classmethod
@@ -19,12 +19,12 @@ class InfoService:
         cls, query_db: AsyncSession, query_object: InfoPageQueryModel, is_page: bool = False
     ):
         """
-        获取实用信息列表信息service
+        获取system列表信息service
 
         :param query_db: orm对象
         :param query_object: 查询参数对象
         :param is_page: 是否开启分页
-        :return: 实用信息列表信息对象
+        :return: system列表信息对象
         """
         info_list_result = await InfoDao.get_info_list(query_db, query_object, is_page)
 
@@ -34,11 +34,11 @@ class InfoService:
     @classmethod
     async def add_info_services(cls, query_db: AsyncSession, page_object: InfoModel):
         """
-        新增实用信息信息service
+        新增system信息service
 
         :param query_db: orm对象
-        :param page_object: 新增实用信息对象
-        :return: 新增实用信息校验结果
+        :param page_object: 新增system对象
+        :return: 新增system校验结果
         """
         try:
             await InfoDao.add_info_dao(query_db, page_object)
@@ -51,11 +51,11 @@ class InfoService:
     @classmethod
     async def edit_info_services(cls, query_db: AsyncSession, page_object: InfoModel):
         """
-        编辑实用信息信息service
+        编辑system信息service
 
         :param query_db: orm对象
-        :param page_object: 编辑实用信息对象
-        :return: 编辑实用信息校验结果
+        :param page_object: 编辑system对象
+        :return: 编辑system校验结果
         """
         edit_info = page_object.model_dump(exclude_unset=True, exclude={})
         info_info = await cls.info_detail_services(query_db, page_object.id)
@@ -68,16 +68,16 @@ class InfoService:
                 await query_db.rollback()
                 raise e
         else:
-            raise ServiceException(message='实用信息不存在')
+            raise ServiceException(message='system不存在')
 
     @classmethod
     async def delete_info_services(cls, query_db: AsyncSession, page_object: DeleteInfoModel):
         """
-        删除实用信息信息service
+        删除system信息service
 
         :param query_db: orm对象
-        :param page_object: 删除实用信息对象
-        :return: 删除实用信息校验结果
+        :param page_object: 删除system对象
+        :return: 删除system校验结果
         """
         if page_object.ids:
             id_list = page_object.ids.split(',')
@@ -95,7 +95,7 @@ class InfoService:
     @classmethod
     async def info_detail_services(cls, query_db: AsyncSession, id: int):
         """
-        获取实用信息详细信息service
+        获取system详细信息service
 
         :param query_db: orm对象
         :param id: 主键ID
@@ -112,18 +112,18 @@ class InfoService:
     @staticmethod
     async def export_info_list_services(info_list: List):
         """
-        导出实用信息信息service
+        导出system信息service
 
-        :param info_list: 实用信息信息列表
-        :return: 实用信息信息对应excel的二进制数据
+        :param info_list: system信息列表
+        :return: system信息对应excel的二进制数据
         """
         # 创建一个映射字典，将英文键映射到中文键
         mapping_dict = {
             'id': '主键ID',
             'mdContent': '实用信息的URL地址',
             'isDeleted': '逻辑删除标志，0表示未删除，1表示已删除',
-            'createdAt': '创建时间',
-            'updatedAt': '更新时间',
+            'createdAt': '',
+            'updatedAt': '',
         }
         binary_data = ExcelUtil.export_list2excel(info_list, mapping_dict)
 

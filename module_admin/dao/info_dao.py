@@ -7,17 +7,17 @@ from utils.page_util import PageUtil
 
 class InfoDao:
     """
-    实用信息模块数据库操作层
+    system模块数据库操作层
     """
 
     @classmethod
     async def get_info_detail_by_id(cls, db: AsyncSession, id: int):
         """
-        根据主键ID获取实用信息详细信息
+        根据主键ID获取system详细信息
 
         :param db: orm对象
         :param id: 主键ID
-        :return: 实用信息信息对象
+        :return: system信息对象
         """
         info_info = (
             (
@@ -37,11 +37,11 @@ class InfoDao:
     @classmethod
     async def get_info_detail_by_info(cls, db: AsyncSession, info: InfoModel):
         """
-        根据实用信息参数获取实用信息信息
+        根据system参数获取system信息
 
         :param db: orm对象
-        :param info: 实用信息参数对象
-        :return: 实用信息信息对象
+        :param info: system参数对象
+        :return: system信息对象
         """
         info_info = (
             (
@@ -59,12 +59,12 @@ class InfoDao:
     @classmethod
     async def get_info_list(cls, db: AsyncSession, query_object: InfoPageQueryModel, is_page: bool = False):
         """
-        根据查询参数获取实用信息列表信息
+        根据查询参数获取system列表信息
 
         :param db: orm对象
         :param query_object: 查询参数对象
         :param is_page: 是否开启分页
-        :return: 实用信息列表信息对象
+        :return: system列表信息对象
         """
         query = (
             select(PracticalInfo)
@@ -84,10 +84,10 @@ class InfoDao:
     @classmethod
     async def add_info_dao(cls, db: AsyncSession, info: InfoModel):
         """
-        新增实用信息数据库操作
+        新增system数据库操作
 
         :param db: orm对象
-        :param info: 实用信息对象
+        :param info: system对象
         :return:
         """
         db_info = PracticalInfo(**info.model_dump(exclude={}))
@@ -99,10 +99,10 @@ class InfoDao:
     @classmethod
     async def edit_info_dao(cls, db: AsyncSession, info: dict):
         """
-        编辑实用信息数据库操作
+        编辑system数据库操作
 
         :param db: orm对象
-        :param info: 需要更新的实用信息字典
+        :param info: 需要更新的system字典
         :return:
         """
         await db.execute(update(PracticalInfo), [info])
@@ -110,10 +110,10 @@ class InfoDao:
     @classmethod
     async def delete_info_dao(cls, db: AsyncSession, info: InfoModel):
         """
-        删除实用信息数据库操作
+        删除system数据库操作
 
         :param db: orm对象
-        :param info: 实用信息对象
+        :param info: system对象
         :return:
         """
         await db.execute(delete(PracticalInfo).where(PracticalInfo.id.in_([info.id])))

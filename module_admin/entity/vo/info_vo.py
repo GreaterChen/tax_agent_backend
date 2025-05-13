@@ -10,15 +10,15 @@ from module_admin.annotation.pydantic_annotation import as_query
 
 class InfoModel(BaseModel):
     """
-    实用信息表对应pydantic模型
+    system表对应pydantic模型
     """
     model_config = ConfigDict(alias_generator=to_camel, from_attributes=True)
 
     id: Optional[int] = Field(default=None, description='主键ID')
     md_content: Optional[str] = Field(default=None, description='实用信息的URL地址')
     is_deleted: Optional[int] = Field(default=None, description='逻辑删除标志，0表示未删除，1表示已删除')
-    created_at: Optional[datetime] = Field(default=None, description='创建时间')
-    updated_at: Optional[datetime] = Field(default=None, description='更新时间')
+    created_at: Optional[datetime] = Field(default=None, description='')
+    updated_at: Optional[datetime] = Field(default=None, description='')
 
     @NotBlank(field_name='md_content', message='实用信息的URL地址不能为空')
     def get_md_content(self):
@@ -33,7 +33,7 @@ class InfoModel(BaseModel):
 
 class InfoQueryModel(InfoModel):
     """
-    实用信息不分页查询模型
+    system不分页查询模型
     """
     pass
 
@@ -41,7 +41,7 @@ class InfoQueryModel(InfoModel):
 @as_query
 class InfoPageQueryModel(InfoQueryModel):
     """
-    实用信息分页查询模型
+    system分页查询模型
     """
 
     page_num: int = Field(default=1, description='当前页码')
@@ -50,7 +50,7 @@ class InfoPageQueryModel(InfoQueryModel):
 
 class DeleteInfoModel(BaseModel):
     """
-    删除实用信息模型
+    删除system模型
     """
 
     model_config = ConfigDict(alias_generator=to_camel)

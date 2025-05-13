@@ -36,7 +36,7 @@ info_page_query: InfoPageQueryModel = Depends(InfoPageQueryModel.as_query),
 
 @infoController.post('', dependencies=[Depends(CheckUserInterfaceAuth('system:info:add'))])
 @ValidateFields(validate_model='add_info')
-@Log(title='实用信息', business_type=BusinessType.INSERT)
+@Log(title='system', business_type=BusinessType.INSERT)
 async def add_system_info(
     request: Request,
     add_info: InfoModel,
@@ -51,7 +51,7 @@ async def add_system_info(
 
 @infoController.put('', dependencies=[Depends(CheckUserInterfaceAuth('system:info:edit'))])
 @ValidateFields(validate_model='edit_info')
-@Log(title='实用信息', business_type=BusinessType.UPDATE)
+@Log(title='system', business_type=BusinessType.UPDATE)
 async def edit_system_info(
     request: Request,
     edit_info: InfoModel,
@@ -67,7 +67,7 @@ async def edit_system_info(
 
 
 @infoController.delete('/{ids}', dependencies=[Depends(CheckUserInterfaceAuth('system:info:remove'))])
-@Log(title='实用信息', business_type=BusinessType.DELETE)
+@Log(title='system', business_type=BusinessType.DELETE)
 async def delete_system_info(request: Request, ids: str, query_db: AsyncSession = Depends(get_db)):
     delete_info = DeleteInfoModel(ids=ids)
     delete_info_result = await InfoService.delete_info_services(query_db, delete_info)
@@ -87,7 +87,7 @@ async def query_detail_system_info(request: Request, id: int, query_db: AsyncSes
 
 
 @infoController.post('/export', dependencies=[Depends(CheckUserInterfaceAuth('system:info:export'))])
-@Log(title='实用信息', business_type=BusinessType.EXPORT)
+@Log(title='system', business_type=BusinessType.EXPORT)
 async def export_system_info_list(
     request: Request,
     info_page_query: InfoPageQueryModel = Form(),

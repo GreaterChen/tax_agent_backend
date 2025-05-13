@@ -1,3 +1,4 @@
+from datetime import datetime
 from sqlalchemy import DECIMAL, TIMESTAMP, SmallInteger, String, Text, Column, Integer
 from config.database import Base
 
@@ -18,9 +19,9 @@ class Products(Base):
     price_hkd = Column(DECIMAL, nullable=True, comment='')
     introduction = Column(Text, nullable=True, comment='')
     expiry = Column(Integer, nullable=True, comment='')
-    is_deleted = Column(SmallInteger, nullable=True, comment='')
-    created_at = Column(TIMESTAMP, nullable=True, comment='')
-    updated_at = Column(TIMESTAMP, nullable=True, comment='')
+    is_deleted = Column(SmallInteger, nullable=True, comment='', default=0)
+    created_at = Column(TIMESTAMP, nullable=True, comment='创建时间', default=datetime.now)
+    updated_at = Column(TIMESTAMP, nullable=True, comment='更新时间', default=datetime.now, onupdate=datetime.now) 
 
 
 
