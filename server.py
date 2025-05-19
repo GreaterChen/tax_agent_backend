@@ -26,6 +26,7 @@ from module_admin.controller.news_controller import newsController
 from module_admin.controller.info_controller import infoController
 from module_admin.controller.products_controller import productsController
 from module_admin.controller.payments_controller import paymentsController
+from module_admin.controller.refunds_controller import refundsController
 from module_generator.controller.gen_controller import genController
 from sub_applications.handle import handle_sub_applications
 from utils.common_util import worship
@@ -86,7 +87,8 @@ controller_list = [
     {'router': newsController, 'tags': ['新闻模块']},
     {'router': infoController, 'tags': ['实用信息模块']},
     {'router': productsController, 'tags': ['产品模块']},
-    {'router': paymentsController, 'tags': ['支付模块']}
+    {'router': paymentsController, 'tags': ['支付模块']},
+    {'router': refundsController, 'tags': ['退款模块']}
 ]
 for controller in controller_list:
     app.include_router(router=controller.get('router'), tags=controller.get('tags'))
