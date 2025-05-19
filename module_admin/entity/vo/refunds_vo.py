@@ -105,3 +105,37 @@ class DeleteRefundsModel(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel)
 
     ids: str = Field(description='需要删除的退款ID')
+
+
+class RefundAuditModel(BaseModel):
+    """
+    退款审核模型
+    """
+    model_config = ConfigDict(alias_generator=to_camel, from_attributes=True)
+
+    id: int = Field(description='退款ID')
+    refund_amount: Decimal = Field(description='应退金额')
+    confirm: bool = Field(description='是否同意退款')
+    confirm_reason: str = Field(description='是否同意退款的原因')
+
+    @NotBlank(field_name='id', message='退款ID不能为空')
+    def get_id(self):
+        return self.id
+
+    @NotBlank(field_name='refund_amount', message='应退金额不能为空')
+    def get_refund_amount(self):
+        return self.refund_amount
+
+    @NotBlank(field_name='confirm', message='是否同意退款不能为空')
+    def get_confirm(self):
+        return self.confirm
+
+    @NotBlank(field_name='confirm_reason', message='退款原因不能为空')
+    def get_confirm_reason(self):
+        return self.confirm_reason
+
+    def validate_fields(self):
+        self.get_id()
+        self.get_refund_amount()
+        self.get_confirm()
+        self.get_confirm_reason()

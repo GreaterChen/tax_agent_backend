@@ -153,13 +153,13 @@ class LoginService:
         :param login_user: 登录用户对象
         :return: 校验结果
         """
-        captcha_value = await request.app.state.redis.get(f'{RedisInitKeyConfig.CAPTCHA_CODES.key}:{login_user.uuid}')
-        if not captcha_value:
-            logger.warning('验证码已失效')
-            raise LoginException(data='', message='验证码已失效')
-        if login_user.code != str(captcha_value):
-            logger.warning('验证码错误')
-            raise LoginException(data='', message='验证码错误')
+        # captcha_value = await request.app.state.redis.get(f'{RedisInitKeyConfig.CAPTCHA_CODES.key}:{login_user.uuid}')
+        # if not captcha_value:
+        #     logger.warning('验证码已失效')
+        #     raise LoginException(data='', message='验证码已失效')
+        # if login_user.code != str(captcha_value):
+        #     logger.warning('验证码错误')
+        #     raise LoginException(data='', message='验证码错误')
         return True
 
     @classmethod

@@ -146,6 +146,18 @@ class CachePathConfig:
     PATHSTR = 'caches'
 
 
+class EmailSettings(BaseSettings):
+    """
+    邮件配置
+    """
+    email_host: str = 'smtp.163.com'
+    email_port: int = 465
+    email_username: str = 'chenlb20090121@163.com'
+    email_password: str = 'NFRDUj4n43vHt5D5'
+    email_from: str = 'Custom System <chenlb20090121@163.com>'
+    email_use_ssl: bool = True
+
+
 class GetConfig:
     """
     获取配置
@@ -202,6 +214,14 @@ class GetConfig:
         # 实例上传配置
         return UploadSettings()
 
+    @lru_cache()
+    def get_email_config(self):
+        """
+        获取邮件配置
+        """
+        # 实例化邮件配置模型
+        return EmailSettings()
+
     @staticmethod
     def parse_cli_args():
         """
@@ -243,3 +263,5 @@ RedisConfig = get_config.get_redis_config()
 GenConfig = get_config.get_gen_config()
 # 上传配置
 UploadConfig = get_config.get_upload_config()
+# 邮件配置
+EmailConfig = get_config.get_email_config()

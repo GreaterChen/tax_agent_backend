@@ -1,10 +1,16 @@
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import List
+from datetime import datetime
+from fastapi import Request
 from config.constant import CommonConstant
 from exceptions.exception import ServiceException
 from module_admin.entity.vo.common_vo import CrudResponseModel
 from module_admin.dao.refunds_dao import RefundsDao
-from module_admin.entity.vo.refunds_vo import DeleteRefundsModel, RefundsModel, RefundsPageQueryModel
+from module_admin.dao.payments_dao import PaymentsDao
+from module_admin.dao.user_dao import UserDao
+from module_admin.entity.vo.refunds_vo import DeleteRefundsModel, RefundsModel, RefundsPageQueryModel, RefundAuditModel
+from module_admin.entity.vo.payments_vo import PaymentsModel
+from module_admin.utils.email_service import EmailService
 from utils.common_util import CamelCaseUtil
 from utils.excel_util import ExcelUtil
 
@@ -141,3 +147,99 @@ class RefundsService:
         binary_data = ExcelUtil.export_list2excel(refunds_list, mapping_dict)
 
         return binary_data
+
+    @classmethod
+    async def audit_refunds_services(cls, request: Request, query_db: AsyncSession, refund_audit: RefundAuditModel, current_user_name: str):
+        """
+        审核退款信息service
+
+        :param request: 请求对象
+        :param query_db: orm对象
+        :param refund_audit: 退款审核对象
+        :param current_user_name: 当前用户名
+        :return: 审核结果
+        """
+        try:
+            # 验证退款ID是否存在
+            refund_info = await cls.refunds_detail_services(query_db, refund_audit.id)
+            if not refund_info.id:
+                raise ServiceException(message='退款订单不存在')
+                
+            if refund_info.status != 'PENDING':
+                raise ServiceException(message='该退款订单已审核，不能重复审核')
+                
+            # 执行退款审核
+            refund_updated = await RefundsDao.audit_refunds_dao(query_db, refund_audit, current_user_name)
+            if not refund_updated:
+                raise ServiceException(message='审核失败，请重试')
+                
+            # 如果审核通过，更新支付订单状态为REFUNDED
+            if refund_audit.confirm:
+                # 获取关联的支付订单
+                payment_id = refund_updated.payment_id
+                # 获取支付订单信息
+                payment_info = await PaymentsDao.get_payments_detail_by_id(query_db, payment_id)
+                
+                if payment_info:
+                    # 更新支付订单状态为REFUNDED，更新退款时间
+                    payment_update = {
+                        "id": payment_id,
+                        "status": "REFUNDED",
+                        "refund_time": datetime.now(),
+                        "update_by": current_user_name,
+                        "update_time": datetime.now()
+                    }
+                    await PaymentsDao.edit_payments_dao(query_db, payment_update)
+                
+            # 发送邮件通知
+            # 获取用户账号信息
+            redis = request.app.state.redis
+            
+            # 获取用户详细信息
+            user_basic_info = await UserDao.get_user_by_id(query_db, refund_updated.user_id)
+            user_basic = user_basic_info.get('user_basic_info') if user_basic_info else None
+            
+            # 构建退款邮件所需信息
+            user_info = {
+                'user_id': refund_updated.user_id,
+                'user_name': user_basic.nick_name if user_basic else f'用户{refund_updated.user_id}'
+            }
+            
+            order_info = {
+                'payment_id': refund_updated.payment_id,
+                'product_name': refund_updated.product_name,
+                'original_amount': refund_updated.refund_amount,  # 假设原订单金额等于退款金额
+                'currency': refund_updated.refund_currency
+            }
+            
+            refund_info = {
+                'refund_amount': refund_audit.refund_amount,
+                'refund_currency': refund_updated.refund_currency,
+                'approved': refund_audit.confirm,
+                'confirm_reason': refund_audit.confirm_reason
+            }
+            
+            # 获取用户邮箱
+            user_email = user_basic.email if user_basic and user_basic.email else None
+            
+            # 只有当用户有邮箱时才发送邮件
+            email_result = False
+            error_msg = "用户未设置邮箱，无法发送通知"
+            
+            if user_email:
+                # 发送邮件通知
+                email_result, error_msg = await EmailService.send_refund_notification_email(
+                    user_email, user_info, order_info, refund_info
+                )
+            
+            # 即使邮件发送失败，也认为审核成功
+            await query_db.commit()
+            
+            if email_result:
+                return CrudResponseModel(is_success=True, message='审核成功，已发送邮件通知')
+            else:
+                return CrudResponseModel(is_success=True, message=f'审核成功，但邮件通知失败: {error_msg}')
+                
+        except Exception as e:
+            await query_db.rollback()
+            raise e

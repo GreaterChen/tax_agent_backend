@@ -1,8 +1,9 @@
 from sqlalchemy import delete, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 from module_admin.entity.do.refunds_do import Refunds
-from module_admin.entity.vo.refunds_vo import RefundsModel, RefundsPageQueryModel
+from module_admin.entity.vo.refunds_vo import RefundsModel, RefundsPageQueryModel, RefundAuditModel
 from utils.page_util import PageUtil
+from datetime import datetime
 
 
 class RefundsDao:
@@ -126,4 +127,44 @@ class RefundsDao:
         :return:
         """
         await db.execute(delete(Refunds).where(Refunds.id.in_([refunds.id])))
+
+    @classmethod
+    async def audit_refunds_dao(cls, db: AsyncSession, refund_audit: RefundAuditModel, username: str):
+        """
+        审核退款数据库操作
+
+        :param db: orm对象
+        :param refund_audit: 退款审核对象
+        :param username: 审核人用户名
+        :return: 更新后的退款对象
+        """
+        # 获取退款信息
+        refund = await cls.get_refunds_detail_by_id(db, refund_audit.id)
+        
+        if not refund:
+            return None
+            
+        # 更新退款状态
+        if refund_audit.confirm:
+            status = "APPROVED"
+            approved = 1
+        else:
+            status = "REJECTED"
+            approved = 0
+            
+        # 更新退款表
+        update_data = {
+            "id": refund_audit.id,
+            "refund_amount": refund_audit.refund_amount,
+            "status": status,
+            "admin_remark": refund_audit.confirm_reason,
+            "approved": approved,
+            "approved_time": datetime.now(),
+            "approved_by": username
+        }
+        
+        await cls.edit_refunds_dao(db, update_data)
+        
+        # 返回更新后的退款对象
+        return await cls.get_refunds_detail_by_id(db, refund_audit.id)
 

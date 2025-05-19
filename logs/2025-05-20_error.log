@@ -1,0 +1,53 @@
+2025-05-20 00:49:43.232 |  | INFO     | server:lifespan:39 - RuoYi-FastAPI开始启动
+2025-05-20 00:49:43.234 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-20 00:49:43.291 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-20 00:49:43.291 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-20 00:49:43.295 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-20 00:49:43.361 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-20 00:49:43.387 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-20 00:49:43.387 |  | INFO     | server:lifespan:46 - RuoYi-FastAPI启动成功
+2025-05-20 00:58:54.288 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-20 00:58:54.289 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-20 00:58:58.097 |  | INFO     | server:lifespan:39 - RuoYi-FastAPI开始启动
+2025-05-20 00:58:58.099 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-20 00:58:58.143 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-20 00:58:58.143 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-20 00:58:58.145 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-20 00:58:58.203 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-20 00:58:58.222 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-20 00:58:58.222 |  | INFO     | server:lifespan:46 - RuoYi-FastAPI启动成功
+2025-05-20 00:59:08.727 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-20 00:59:08.729 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-20 00:59:12.076 |  | INFO     | server:lifespan:39 - RuoYi-FastAPI开始启动
+2025-05-20 00:59:12.078 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-20 00:59:12.140 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-20 00:59:12.140 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-20 00:59:12.142 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-20 00:59:12.202 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-20 00:59:12.222 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-20 00:59:12.222 |  | INFO     | server:lifespan:46 - RuoYi-FastAPI启动成功
+2025-05-20 01:14:26.301 | 03b79694bc78481aac754d96ede6471b | WARNING  | module_admin.service.login_service:__check_login_captcha:158 - 验证码已失效
+2025-05-20 01:14:26.301 | 03b79694bc78481aac754d96ede6471b | WARNING  | module_admin.annotation.log_annotation:wrapper:123 - 验证码已失效
+2025-05-20 01:18:43.964 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-20 01:18:43.965 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-20 01:18:47.783 |  | INFO     | server:lifespan:39 - RuoYi-FastAPI开始启动
+2025-05-20 01:18:47.784 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-20 01:18:47.827 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-20 01:18:47.828 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-20 01:18:47.829 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-20 01:18:47.885 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-20 01:18:47.902 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-20 01:18:47.902 |  | INFO     | server:lifespan:46 - RuoYi-FastAPI启动成功
+2025-05-20 01:18:51.159 | 90173e9a9ec94beca3192884c7d9b26d | WARNING  | module_admin.service.login_service:authenticate_user:98 - 用户不存在
+2025-05-20 01:18:51.160 | 90173e9a9ec94beca3192884c7d9b26d | WARNING  | module_admin.annotation.log_annotation:wrapper:123 - 用户不存在
+2025-05-20 01:19:03.974 | 316dd8c280094da9841cef057590f727 | INFO     | module_admin.controller.login_controller:login:71 - 登录成功
+2025-05-20 01:21:35.341 |  | INFO     | config.get_redis:close_redis_pool:55 - 关闭redis连接成功
+2025-05-20 01:21:35.341 |  | INFO     | config.get_scheduler:close_system_scheduler:152 - 关闭定时任务成功
+2025-05-20 01:21:38.600 |  | INFO     | server:lifespan:39 - RuoYi-FastAPI开始启动
+2025-05-20 01:21:38.602 |  | INFO     | config.get_db:init_create_table:21 - 初始化数据库连接...
+2025-05-20 01:21:38.642 |  | INFO     | config.get_db:init_create_table:24 - 数据库连接成功
+2025-05-20 01:21:38.643 |  | INFO     | config.get_redis:create_redis_pool:22 - 开始连接redis...
+2025-05-20 01:21:38.644 |  | INFO     | config.get_redis:create_redis_pool:35 - redis连接成功
+2025-05-20 01:21:38.701 |  | INFO     | config.get_scheduler:init_system_scheduler:134 - 开始启动定时任务...
+2025-05-20 01:21:38.724 |  | INFO     | config.get_scheduler:init_system_scheduler:142 - 系统初始定时任务加载成功
+2025-05-20 01:21:38.724 |  | INFO     | server:lifespan:46 - RuoYi-FastAPI启动成功
