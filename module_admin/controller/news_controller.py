@@ -57,8 +57,8 @@ async def edit_system_news(
     query_db: AsyncSession = Depends(get_db),
     current_user: CurrentUserModel = Depends(LoginService.get_current_user),
 ):
-    edit_news.update_by = current_user.user.user_name
-    edit_news.update_time = datetime.now()
+    # edit_news.update_by = current_user.user.user_name
+    # edit_news.update_time = datetime.now()
     edit_news_result = await NewsService.edit_news_services(query_db, edit_news)
     logger.info(edit_news_result.message)
 

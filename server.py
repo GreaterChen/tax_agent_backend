@@ -28,6 +28,7 @@ from module_admin.controller.products_controller import productsController
 from module_admin.controller.payments_controller import paymentsController
 from module_admin.controller.refunds_controller import refundsController
 from module_admin.controller.team_info_controller import team_infoController
+from module_admin.controller.custom_ai_package_controller import custom_ai_packageController
 from module_generator.controller.gen_controller import genController
 from sub_applications.handle import handle_sub_applications
 from utils.common_util import worship
@@ -90,7 +91,8 @@ controller_list = [
     {'router': productsController, 'tags': ['产品模块']},
     {'router': paymentsController, 'tags': ['支付模块']},
     {'router': refundsController, 'tags': ['退款模块']},
-    {'router': team_infoController, 'tags': ['团队信息模块']}
+    {'router': team_infoController, 'tags': ['团队信息模块']},
+    {'router': custom_ai_packageController, 'tags': ['用户套餐情况模块']}
 ]
 for controller in controller_list:
     app.include_router(router=controller.get('router'), tags=controller.get('tags'))
