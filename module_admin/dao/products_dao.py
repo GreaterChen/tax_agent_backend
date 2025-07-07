@@ -77,6 +77,7 @@ class ProductsDao:
                 Products.price_hkd == query_object.price_hkd if query_object.price_hkd else True,
                 Products.introduction == query_object.introduction if query_object.introduction else True,
                 Products.expiry == query_object.expiry if query_object.expiry else True,
+                Products.language == query_object.language if query_object.language else True,
                 Products.is_deleted == query_object.is_deleted if query_object.is_deleted else True,
                 Products.created_at == query_object.created_at if query_object.created_at else True,
                 Products.updated_at == query_object.updated_at if query_object.updated_at else True,

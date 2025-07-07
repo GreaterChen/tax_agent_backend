@@ -128,6 +128,7 @@ class ProductsService:
             'priceHkd': '',
             'introduction': '',
             'expiry': '',
+            'language': '语言',
             'isDeleted': '',
             'createdAt': '',
             'updatedAt': '',

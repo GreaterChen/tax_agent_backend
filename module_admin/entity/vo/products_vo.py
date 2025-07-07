@@ -23,6 +23,7 @@ class ProductsModel(BaseModel):
     price_hkd: Optional[Decimal] = Field(default=None, description='')
     introduction: Optional[str] = Field(default=None, description='')
     expiry: Optional[int] = Field(default=None, description='')
+    language: Optional[str] = Field(default=None, description='语言')
     is_deleted: Optional[int] = Field(default=None, description='')
     created_at: Optional[datetime] = Field(default=None, description='')
     updated_at: Optional[datetime] = Field(default=None, description='')
