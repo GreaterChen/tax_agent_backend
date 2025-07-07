@@ -70,6 +70,7 @@ class InfoDao:
             select(PracticalInfo)
             .where(
                 PracticalInfo.md_content == query_object.md_content if query_object.md_content else True,
+                PracticalInfo.language == query_object.language if query_object.language else True,
                 PracticalInfo.is_deleted == query_object.is_deleted if query_object.is_deleted else True,
                 PracticalInfo.created_at == query_object.created_at if query_object.created_at else True,
                 PracticalInfo.updated_at == query_object.updated_at if query_object.updated_at else True,

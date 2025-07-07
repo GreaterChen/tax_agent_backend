@@ -121,6 +121,7 @@ class InfoService:
         mapping_dict = {
             'id': '主键ID',
             'mdContent': '实用信息的URL地址',
+            'language': '语言',
             'isDeleted': '逻辑删除标志，0表示未删除，1表示已删除',
             'createdAt': '',
             'updatedAt': '',

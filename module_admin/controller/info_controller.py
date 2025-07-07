@@ -58,8 +58,8 @@ async def edit_system_info(
     query_db: AsyncSession = Depends(get_db),
     current_user: CurrentUserModel = Depends(LoginService.get_current_user),
 ):
-    edit_info.update_by = current_user.user.user_name
-    edit_info.update_time = datetime.now()
+    # edit_info.update_by = current_user.user.user_name
+    # edit_info.update_time = datetime.now()
     edit_info_result = await InfoService.edit_info_services(query_db, edit_info)
     logger.info(edit_info_result.message)
 

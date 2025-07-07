@@ -16,6 +16,7 @@ class InfoModel(BaseModel):
 
     id: Optional[int] = Field(default=None, description='主键ID')
     md_content: Optional[str] = Field(default=None, description='实用信息的URL地址')
+    language: Optional[str] = Field(default=None, description='语言')
     is_deleted: Optional[int] = Field(default=None, description='逻辑删除标志，0表示未删除，1表示已删除')
     created_at: Optional[datetime] = Field(default=None, description='')
     updated_at: Optional[datetime] = Field(default=None, description='')
