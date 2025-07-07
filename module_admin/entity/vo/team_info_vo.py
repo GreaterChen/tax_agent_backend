@@ -20,6 +20,7 @@ class Team_infoModel(BaseModel):
     name: Optional[str] = Field(default=None, description='成员名字')
     desc_text1: Optional[str] = Field(default=None, description='描述文本1')
     desc_text2: Optional[str] = Field(default=None, description='描述文本2')
+    language: Optional[str] = Field(default=None, description='语言')
     sort: Optional[int] = Field(default=None, description='排序')
     status: Optional[str] = Field(default=None, description='状态（0正常 1停用）')
     create_by: Optional[str] = Field(default=None, description='创建者')

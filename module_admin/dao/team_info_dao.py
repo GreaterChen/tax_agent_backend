@@ -74,6 +74,7 @@ class Team_infoDao:
                 TeamInfo.name.like(f'%{query_object.name}%') if query_object.name else True,
                 TeamInfo.desc_text1 == query_object.desc_text1 if query_object.desc_text1 else True,
                 TeamInfo.desc_text2 == query_object.desc_text2 if query_object.desc_text2 else True,
+                TeamInfo.language == query_object.language if query_object.language else True,
                 TeamInfo.sort == query_object.sort if query_object.sort else True,
                 TeamInfo.status == query_object.status if query_object.status else True,
             )

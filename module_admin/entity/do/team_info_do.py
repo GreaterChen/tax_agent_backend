@@ -15,6 +15,7 @@ class TeamInfo(Base):
     name = Column(String(50), nullable=False, comment='成员名字')
     desc_text1 = Column(String(200), nullable=False, comment='描述文本1')
     desc_text2 = Column(String(200), nullable=False, comment='描述文本2')
+    language = Column(String(10), nullable=True, comment='语言')
     sort = Column(Integer, nullable=True, comment='排序')
     status = Column(String(1), nullable=True, comment='状态（0正常 1停用）')
     create_by = Column(String(64), nullable=True, comment='创建者')

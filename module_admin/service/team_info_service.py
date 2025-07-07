@@ -125,6 +125,7 @@ class Team_infoService:
             'name': '成员名字',
             'descText1': '描述文本1',
             'descText2': '描述文本2',
+            'language': '语言',
             'sort': '排序',
             'status': '状态',
             'createBy': '创建者',
