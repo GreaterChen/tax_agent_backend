@@ -17,6 +17,7 @@ class News(Base):
     url = Column(String(500), nullable=True, comment='')
     created_at = Column(TIMESTAMP, nullable=True, comment='')
     title = Column(String(200), nullable=True, comment='')
+    news_type = Column(String(50), nullable=True, comment='新闻类别')
 
 
 

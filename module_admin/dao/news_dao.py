@@ -76,6 +76,7 @@ class NewsDao:
                 News.url == query_object.url if query_object.url else True,
                 News.created_at == query_object.created_at if query_object.created_at else True,
                 News.title == query_object.title if query_object.title else True,
+                News.news_type == query_object.news_type if query_object.news_type else True,
             )
             .order_by(News.id)
             .distinct()

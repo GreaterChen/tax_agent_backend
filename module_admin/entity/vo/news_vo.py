@@ -21,6 +21,7 @@ class NewsModel(BaseModel):
     url: Optional[str] = Field(default=None, description='')
     created_at: Optional[datetime] = Field(default=None, description='')
     title: Optional[str] = Field(default=None, description='')
+    news_type: Optional[str] = Field(default=None, description='新闻类别')
 
 
 

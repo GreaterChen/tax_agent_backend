@@ -127,6 +127,7 @@ class NewsService:
             'url': '',
             'createdAt': '',
             'title': '',
+            'newsType': '新闻类别',
         }
         binary_data = ExcelUtil.export_list2excel(news_list, mapping_dict)
 
