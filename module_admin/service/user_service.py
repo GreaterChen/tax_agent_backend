@@ -269,13 +269,17 @@ class UserService:
             role_ids = ','.join([str(row.role_id) for row in query_user.get('user_role_info')])
             role_ids_list = [row.role_id for row in query_user.get('user_role_info')]
 
+            basic_info = CamelCaseUtil.transform_result(query_user.get('user_basic_info')) or {}
+            dept_info = CamelCaseUtil.transform_result(query_user.get('user_dept_info'))
+            role_info = CamelCaseUtil.transform_result(query_user.get('user_role_info'))
+
             return UserDetailModel(
                 data=UserInfoModel(
-                    **CamelCaseUtil.transform_result(query_user.get('user_basic_info')),
+                    **basic_info,
                     postIds=post_ids,
                     roleIds=role_ids,
-                    dept=CamelCaseUtil.transform_result(query_user.get('user_dept_info')),
-                    role=CamelCaseUtil.transform_result(query_user.get('user_role_info')),
+                    dept=dept_info,
+                    role=role_info,
                 ),
                 postIds=post_ids_list,
                 posts=posts,
@@ -300,13 +304,17 @@ class UserService:
         role_ids = ','.join([str(row.role_id) for row in query_user.get('user_role_info')])
         role_group = ','.join([row.role_name for row in query_user.get('user_role_info')])
 
+        basic_info = CamelCaseUtil.transform_result(query_user.get('user_basic_info')) or {}
+        dept_info = CamelCaseUtil.transform_result(query_user.get('user_dept_info'))
+        role_info = CamelCaseUtil.transform_result(query_user.get('user_role_info'))
+
         return UserProfileModel(
             data=UserInfoModel(
-                **CamelCaseUtil.transform_result(query_user.get('user_basic_info')),
+                **basic_info,
                 postIds=post_ids,
                 roleIds=role_ids,
-                dept=CamelCaseUtil.transform_result(query_user.get('user_dept_info')),
-                role=CamelCaseUtil.transform_result(query_user.get('user_role_info')),
+                dept=dept_info,
+                role=role_info,
             ),
             postGroup=post_group,
             roleGroup=role_group,
@@ -525,12 +533,16 @@ class UserService:
         query_user = await UserDao.get_user_detail_by_id(query_db, page_object.user_id)
         post_ids = ','.join([str(row.post_id) for row in query_user.get('user_post_info')])
         role_ids = ','.join([str(row.role_id) for row in query_user.get('user_role_info')])
+        basic_info = CamelCaseUtil.transform_result(query_user.get('user_basic_info')) or {}
+        dept_info = CamelCaseUtil.transform_result(query_user.get('user_dept_info'))
+        role_info = CamelCaseUtil.transform_result(query_user.get('user_role_info'))
+
         user = UserInfoModel(
-            **CamelCaseUtil.transform_result(query_user.get('user_basic_info')),
+            **basic_info,
             postIds=post_ids,
             roleIds=role_ids,
-            dept=CamelCaseUtil.transform_result(query_user.get('user_dept_info')),
-            role=CamelCaseUtil.transform_result(query_user.get('user_role_info')),
+            dept=dept_info,
+            role=role_info,
         )
         query_role_list = [
             SelectedRoleModel(**row) for row in await RoleService.get_role_select_option_services(query_db)

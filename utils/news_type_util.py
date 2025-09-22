@@ -9,12 +9,12 @@ class NewsTypeUtil:
     
     # 新闻类别多语言映射
     NEWS_TYPE_MAPPING = {
-        'Legislation': {
+        '立法动态': {
             'en': 'Legislation',
             'zh-cn': '立法动态',
             'zh-tw': '立法動態'
         },
-        'Policy': {
+        '政策': {
             'en': 'Policy',
             'zh-cn': '政策',
             'zh-tw': '政策'
@@ -29,7 +29,7 @@ class NewsTypeUtil:
             'zh-cn': 'ACCA',
             'zh-tw': 'ACCA'
         },
-        'Industry': {
+        '行业动态': {
             'en': 'Industry',
             'zh-cn': '行业动态',
             'zh-tw': '行業動態'

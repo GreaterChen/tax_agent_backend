@@ -58,8 +58,8 @@ async def edit_system_products(
     query_db: AsyncSession = Depends(get_db),
     current_user: CurrentUserModel = Depends(LoginService.get_current_user),
 ):
-    edit_products.update_by = current_user.user.user_name
-    edit_products.update_time = datetime.now()
+    # edit_products.update_by = current_user.user.user_name
+    # edit_products.update_time = datetime.now()
     edit_products_result = await ProductsService.edit_products_services(query_db, edit_products)
     logger.info(edit_products_result.message)
 
